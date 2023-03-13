@@ -1,20 +1,14 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -46,16 +40,12 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Mobile Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Volleyball Player",
         icon: backend,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
     },
 ];
 
@@ -73,16 +63,8 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",
@@ -93,10 +75,6 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
         name: "Three JS",
         icon: threejs,
     },
@@ -104,103 +82,66 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Frontend Developer",
+        company_name: "A+ Garanties",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Sep 2020 - Dec 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Developing a website using HTML/CSS & JS and other related technologies.",
+            "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Digital Tech",
+        icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Oct 2022 - Mar 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Maintaining web applications using Node.js, HTML/CSS and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creating an interface that regroups all the customers folders.",
         ],
     },
-];
-
-const testimonials = [
     {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        title: "Student",
+        company_name: "Epitech Technology",
+        icon: meta,
+        iconBg: "#E6DEDD",
+        date: "Sep 2020 - July 2023",
+        points: [
+            "First 3 years of studying in PGE program 2020-2023.",
+            "Learning the bases of coding by learning C/C++ and python.",
+            "Bachelor obtained in 2023.",
+            "Switching to MSC Pro program to specialize myself into one Domain 2023-2025.",
+        ],
     },
     {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        title: "Waiter",
+        company_name: "Monte-Carlo Beach - Grand Hotel Cannes",
+        icon: shopify,
+        iconBg: "#383E56",
+        date: "Summer 2020 - Summer 2021 - Summer 2022",
+        points: [
+            "During the summers i also worked as a waiter in two Well know hotels in the Côte d'Azur.",
+            "Learning how to work with big teams and what hard-working was.",
+            "Immersion in the luxury domain since all the customers were wealthy.",
+        ],
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Incoming...",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         tags: [
             {
                 name: "react",
@@ -215,13 +156,13 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: git,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Incoming...",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         tags: [
             {
                 name: "react",
@@ -236,13 +177,13 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: git,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Incoming...",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         tags: [
             {
                 name: "nextjs",
@@ -257,9 +198,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: git,
         source_code_link: "https://github.com/",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
